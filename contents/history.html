@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/sub.js"></script>
+    <script src="../js/contents.js"></script>
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.svg">
+    <title>회사연혁 > 회사소개 - 에이티비</title>
+    <!-- 서브페이지의 타이틀에는 현재메뉴명 > 상위메뉴명 - 사이트명 -->
+</head>
+<body>
+    <div class="skipnav">
+        <a class="cnt" href="#skip_content">본문바로가기</a>
+        <a class="menu" href="#skip_nav">주메뉴바로가기</a>
+        <!-- 내부링크 href="#skip_nav" 라고 주면 id="skip_nav"로 되어있는 요소로 이동 (클릭했을때) -->
+    </div>
+    <div id="wrap">
+        <header>
+            <h1 class="logo"><a href="../index.html">에이티비</a></h1>
+            <nav class="gnb" id="skip_nav">
+                <button class="gnb_open">메뉴열기</button>
+                <div class="gnb_wrap">
+                    <ul class="depth1">
+                        <li>
+                            <a href="info.html"><span>회사소개</span></a>
+                            <ul class="depth2">
+                                <li><a href="info.html"><span>기업정보</span></a></li>
+                                <li><a href="history.html"><span>회사연혁</span></a></li>
+                                <li><a href="certif.html"><span>인증현황</span></a></li>
+                                <li><a href="map.html"><span>오시는 길</span></a></li>
+                                <li><a href="site.html"><span>사업자 현황</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="biz01.html"><span>사업분야</span></a>
+                            <ul class="depth2">
+                                <li><a href="biz01.html"><span>방산분야</span></a></li>
+                                <li><a href="biz02.html"><span>이차전지 폐건전지 재활용</span></a></li>
+                                <li><a href="biz03.html"><span>반도체 장비/공장 자동화</span></a></li>
+                                <li><a href="biz04.html"><span>시험장치/치공구</span></a></li>
+                                <li><a href="biz05.html"><span>기타보유기술</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="gnb_close">메뉴닫기</button>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="sub_visual bg1">
+                <!-- 1차메뉴 마다 배경이미지가 다름 bg1 bg2 bg3 -->
+                <div class="sub_txt">
+                    <div class="wrapper">
+                        <!--1차메뉴명 & 설명-->
+                        <strong>회사소개</strong>
+                        <span>A Beautiful Company<br>Make a Beautiful World</span>
+                    </div>
+                </div><!--sub_txt-->
+                <nav class="snb"><!--sub navigation bar: 하위메뉴-->
+                    <ul>
+                        <!-- 현재선택된 메뉴 : active -->
+                        <li><a href="info.html"><span>기업정보</span></a></li>
+                        <li class="active"><a href="history.html"><span>회사연혁</span></a></li>
+                        <li><a href="certif.html"><span>인증현황</span></a></li>
+                        <li><a href="map.html"><span>오시는 길</span></a></li>
+                        <li><a href="site.html"><span>사업장 현황</span></a></li>
+                    </ul>
+                </nav>
+            </div><!--sub_visual-->
+            <div class="contents" id="skip_content"><!--skip 에서 본문 바로가기 클릭하면 이동-->
+                <div class="page_tit">
+                    <div class="wrapper">
+                        <h1>회사연혁</h1>
+                        <nav class="breadcrumb">
+                            <ol>
+                                <li class="home"><a href="../index.html">Home</a></li>
+                                <li><a href="info.html">회사소개</a></li>
+                                <li class="curr"><a href="../index.html">회사연혁</a></li>
+                            </ol>
+                        </nav>
+                    </div><!--wrapper-->
+                </div><!--sub_tit-->
+
+                <!--각 페이지별 콘텐츠 시작, 절대 이름이 겹치면 안됨.-->
+                <div class="sub_contents cnt_history">
+                    <div class="wrapper">
+                        <div class="history_tab_top">
+                            <ul>
+                                <li><a href="#history_1819">2018 ~ 2019</a></li>
+                                <li><a href="#history_2022">2020 ~ 2022</a></li>
+                                <li><a href="#history_2324">2023 ~ 2024</a></li>
+                                <li><a href="#history_2526">2025 ~ 2026</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="history_tab">
+                            <ul>
+                                <li class="active" data-anchor="history_1819"><button title="선택됨">2018 ~ 2019</button></li>
+                                <li data-anchor="history_2022"><button>2020 ~ 2022</button></li>
+                                <li data-anchor="history_2324"><button>2023 ~ 2024</button></li>
+                                <li data-anchor="history_2526"><button>2025 ~ 2026</button></li>
+                            </ul>
+                        </div>
+                        <div class="history_wrap"><!--작대기 그리려고 전체를 한 번 묶어줌.-->
+                            <div class="year_wrap photo_right" id="history_2526">
+                                <div class="his_tit">
+                                    <h2>2025 ~ 2026</h2>
+                                    <p>첨단 제조장비 및 미래기술 확대</p>
+                                    <div class="photo"><img src="../images/contents/history_img04.jpg" alt="연혁 사진"></div>
+                                </div>
+
+                                <div class="his_cont">
+                                    <div class="his_row">
+                                        <h3>2026</h3>
+                                        <ul>
+                                            <li><strong>2026.</strong><span>300mm Wafer Transfer Dry Machine 설계 및 제작</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="his_row">
+                                        <h3>2025</h3>
+                                        <ul>
+                                            <li><strong>2025.</strong><span>특허등록 「폐배터리 해체 시스템」</span></li>
+                                            <li><strong>2025.</strong><span>이동형 전자폐 차폐 쉘터 구조물 설계 및 제작</span></li>
+                                            <li><strong>2025.</strong><span>레이저 용접 시험 시스템 설계 및 제작</span></li>
+                                            <li><strong>2025.</strong><span>알곤 가스 재생 공정 라인 설계</span></li>
+                                            <li><strong>2025.</strong><span>현 공장 이전</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="year_wrap photo_left" id="history_2324">
+                                <div class="his_tit">
+                                    <h2>2023 ~ 2024</h2>
+                                    <p>사업 다각화 및 특허 기술 확보</p>
+                                    <div class="photo"><img src="../images/contents/history_img03.jpg" alt="연혁 사진"></div>
+                                </div>
+
+                                <div class="his_cont">
+                                    <div class="his_row">
+                                        <h3>2024</h3>
+                                        <ul>
+                                            <li><strong>2024.</strong><span>2차전지 폐배터리 팩 재활용장치 설계 및 제작</span></li>
+                                            <li><strong>2024.</strong><span>2차전지 셀(원통형·각형·파우치형) 자동 절단장치 설계 및 제작</span></li>
+                                            <li><strong>2024.</strong><span>특허등록 「배터리 해체장치」</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="his_row">
+                                        <h3>2023</h3>
+                                        <ul>
+                                            <li><strong>2023.</strong><span>2차전지 폐배터리 모듈 재활용장치 설계 및 제작</span></li>
+                                            <li><strong>2023.</strong><span>소형무인기 대응체계 쉘터 구조물 설계 및 제작</span></li>
+                                            <li><strong>2023.</strong><span>전자파시험용 겐트리 설계 및 제작</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="year_wrap photo_right" id="history_2022">
+                                <div class="his_tit">
+                                    <h2>2020 ~ 2022</h2>
+                                    <p>배터리 재활용 기술 개발</p>
+                                    <div class="photo"><img src="../images/contents/history_img02.jpg" alt="연혁 사진"></div>
+                                </div>
+
+                                <div class="his_cont">
+                                    <div class="his_row">
+                                        <h3>2022</h3>
+                                        <ul>
+                                            <li><strong>2022.</strong><span>웨어러블 스마트 팩토리 자동화 장치 설계 및 제작</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="his_row">
+                                        <h3>2021</h3>
+                                        <ul>
+                                            <li><strong>2021.</strong><span>중소기업 기술개발사업 「리튬이온 이차전지 폐배터리 절단 공정 기술 개발」 수행</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="his_row">
+                                        <h3>2020</h3>
+                                        <ul>
+                                            <li><strong>2020.</strong><span>제설 용량 측정 장치 설계 및 제작</span></li>
+                                            <li><strong>2020.</strong><span>2차전지 폐배터리 셀 재활용장치 설계 및 제작</span></li>
+                                            <li><strong>2020.</strong><span>2차전지 폐배터리 모듈 재활용장치 설계 및 제작</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="year_wrap photo_left" id="history_1819">
+                                <div class="his_tit">
+                                    <h2>2018 ~ 2019</h2>
+                                    <p>회사 설립 및 사업 기반 구축</p>
+                                    <div class="photo"><img src="../images/contents/history_img01.jpg" alt="연혁 사진"></div>
+                                </div>
+
+                                <div class="his_cont">
+                                    <div class="his_row">
+                                        <h3>2019</h3>
+                                        <ul>
+                                            <li><strong>2019.</strong><span>촉매 처리용 열순환 시스템 설계 및 제작</span></li>
+                                            <li><strong>2019.</strong><span>2차전지 배터리 생산 물류 라인 설계</span></li>
+                                            <li><strong>2019.</strong><span>와이어 드로잉 머신 및 자동공급 장치 설계 및 제작</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="his_row">
+                                        <h3>2018</h3>
+                                        <ul>
+                                            <li><strong>2018.07.05</strong><span>회사 창립</span></li>
+                                            <li><strong>2018.</strong><span>전방감시 및 모니터링 장치 설계 및 제작</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div><!--history_wrap-->
+                    </div><!--wrapper-->
+                </div><!--sub_contents-->
+                <!--각 페이지별 콘텐츠 종료-->
+            </div>
+        </main>
+        <footer>
+            <aside class="top"><button><span>Top</span></button></aside>
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="f_nav">
+                        <div class="text">
+                            <ul>
+                                <li><p>(주)에이티비</p></li>
+                                <li><p>주소. 대전 대덕구 문평동로 41-44, 2동 102호(문평동)</p></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="number">
+                            <ul>
+                                <li><p>TEL. 042-935-9972</p></li>
+                                <li><p>FAX. 042-935-9973</p></li>
+                                <li><p>E-mail. atbco@hanmail.net</p></li>
+                            </ul>
+                        </div>
+                    </div><!--f_nav-->
+                    <div class="copyright">ⓒ 2018 ATBco. All Rights Reserved.</div>
+                </div><!--inner-->
+            </div><!--wrapper-->
+        </footer>
+    </div>
+</body>
+</html>
