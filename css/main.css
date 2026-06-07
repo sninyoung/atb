@@ -196,11 +196,13 @@
 }
 .biz .tit strong span {
     position: relative;
+    font-size: 4em;
+    margin-bottom: 1em;
 }
 .biz .tit strong span::after { /*글자 우측상단에 꾸며주는 아이콘*/
     content: "";
     position: absolute;
-    right:-11px;
+    right:-20px;
     top: -3px;
     width: 0.5882em; /*10px*/
     height: 0.5882em; /*10px*/
