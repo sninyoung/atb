@@ -40,14 +40,14 @@ header {
     transition: 0.3s;
 }
 header .logo {
-    margin: 0 0 10px 0 ;
+    margin: 4px 0 0 0 ;
 }
 header .logo a {
     display: block;
     position: relative; /*before 정렬의 기준*/
     color: transparent; /*글자 색 투명하게 */
-    width: 7.0588em;
-    height: 2.4118em;
+    width: 13em;
+    height: 6em;
 }
 header .logo a::before { /*a를 기준으로 정렬*/
     content: "";

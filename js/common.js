@@ -18,7 +18,7 @@ $(document).ready(function(){
     맨 위로 갔을 때 fixed, scroll_down 모두 삭제
     >>> 스크롤 방향 판단
     이전 스크롤 값은 저장해두고 현재 스크롤 값을 빼 올때 0보다 작으면 
-    */
+    
     function scroll_chk(){
         prev_scroll = scrolling
         scrolling = $(window).scrollTop()
@@ -43,7 +43,7 @@ $(document).ready(function(){
     scroll_chk() //함수 실행
     $(window).scroll(function(){
         scroll_chk()
-    })
+    })*/
     /***********--------header에 클래스 fixed랑 scroll_down 추가 (종료)-------******** */
 
 
