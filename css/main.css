@@ -194,13 +194,8 @@
     line-height: 1.2;
     margin: 0.3778em 0 1.1111em 0; /*상단:17px 하단: 50px*/
 }
-.biz .tit strong span {
-    position: relative;
-    font-size: 4em;
-    margin-bottom: 1em;
-}
 .biz .tit strong span::after { /*글자 우측상단에 꾸며주는 아이콘*/
-    content: "";
+    /*content: "";*/
     position: absolute;
     right:-20px;
     top: -3px;
