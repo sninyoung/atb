@@ -152,6 +152,10 @@ header.menu_pc .gnb .gnb_wrap ul.depth1 > li:hover > ul.depth2 > li > a[target="
         line-height: 2;
     } 
     header .gnb .gnb_wrap ul.depth1 > li > ul.depth2 > li > a > span {
+        font-size: 1.1em;
+        font-weight: 600;
+        letter-spacing: -0.06em
+
     } 
     header .gnb .gnb_wrap ul.depth1 > li > ul.depth2 > li > a[target="_blank"] > span {
         display: inline-block;
@@ -435,7 +439,7 @@ header.menu_pc .gnb .gnb_wrap ul.depth1 > li:hover > ul.depth2 > li > a[target="
 
 
 footer {
-    background-color: #2D2D2D;
+    background-color: #111;
     color: rgba(255,255,255,0.8);
     padding: 5.2941em 0 8.1176em 0;
     position: relative; /* top정렬의 기준 */

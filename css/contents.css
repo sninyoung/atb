@@ -577,7 +577,7 @@
 }
 .cnt_map .map_cont .map_item h3 {
     font-weight: 700;
-    color: #1D1D1D;
+    color: #111;
     float: left;
     /* 부유요소 - p가 인식을 못함 */
 }
@@ -708,7 +708,7 @@
     font-size: 2.0588rem;
     font-weight: 700;
     line-height: 1.2;
-    color: #1D1D1D;
+    color: #111;
 }
 .cnt_ir03 .h2_tit p {
     margin: 0.4118em 0 0 0;
@@ -798,7 +798,7 @@
     font-size: 1.7647rem;
     font-weight: 700;
     line-height: 1.2;
-    color: #1D1D1D;
+    color: #111;
     margin: 0 0 0.3333em 0;
 }
 .cnt_pr04 .view_cont {
