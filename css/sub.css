@@ -193,6 +193,10 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
 .contents {
     margin: 4.7647em 0 14.1176em 0; /*200px 0 240px 0*/
 }
+
+.contents.simp {
+    margin: 17.7647em 0 14.1176em 0; /*200px 0 240px 0*/
+}
 .page_tit {
     margin: 0 0 2.3529em 0; /*00 40px 0*/
 }
