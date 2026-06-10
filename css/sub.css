@@ -61,7 +61,7 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
  
 .sub_visual {
     position: relative; /* snb의 정렬의 기준*/
-    height: 39.7647em; /*676px*/
+    height: 32.7647em; /*676px*/
     background: url(../images/sub/sub_visual_bg01.jpg) no-repeat center center / cover;
     color: #fff;
 }
@@ -191,7 +191,7 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
 } /* @media */
 
 .contents {
-    margin: 11.7647em 0 14.1176em 0; /*200px 0 240px 0*/
+    margin: 4.7647em 0 14.1176em 0; /*200px 0 240px 0*/
 }
 .page_tit {
     margin: 0 0 2.3529em 0; /*00 40px 0*/
