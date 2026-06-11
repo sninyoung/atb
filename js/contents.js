@@ -151,3 +151,45 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+
+    if ($('.infra_eq_swiper').length) {
+
+        new Swiper('.infra_eq_swiper', {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2
+                },
+                1200: {
+                    slidesPerView: 4
+                }
+            },
+            pagination: {
+                el: '.infra_eq_swiper .swiper-pagination',
+                clickable: true
+            }
+        });
+
+    }
+
+    if ($('.infra_site_swiper').length) {
+
+        new Swiper('.infra_site_swiper', {
+            slidesPerView: 1,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            }
+        });
+
+    }
+
+});

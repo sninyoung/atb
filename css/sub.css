@@ -195,7 +195,7 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
 }
 
 .contents.simp {
-    margin: 17.7647em 0 14.1176em 0; /*200px 0 240px 0*/
+    margin: 9.7647em 0 14.1176em 0; /*200px 0 240px 0*/
 }
 .page_tit {
     margin: 0 0 2.3529em 0; /*00 40px 0*/
@@ -706,21 +706,46 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
 
 .cnt_infra .infra_item img,
 .cnt_infra .facility_item img {
-    width: 80%;
+    width: 65%;
     display: block;
     transition: all .4s ease;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 
 .cnt_infra .facility_item p {
-    margin-top: 1em;
+    margin: 0 0 3em 0;
     text-align: center;
-    font-size: 1.125em;
-    font-weight: 500;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
-.cnt_infra .infra_eq_swiper {
-    overflow: hidden;
+.cnt_infra .infra_eq_swiper{
+    overflow:hidden;
+    padding:1.5em 0 5.5em 0;
+}
+
+.cnt_infra .infra_eq_swiper .swiper-slide{
+    height:auto;
+    display:flex;
+    align-items:center;
+}
+
+.cnt_infra .infra_item{
+    width:100%;
+    min-height:18em;
+
+    padding:1.5em 0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.cnt_infra .infra_item a{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .cnt_infra .infra_site_swiper {
