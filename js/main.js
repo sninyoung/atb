@@ -84,3 +84,4 @@ $(document).ready(function(){
         easing: 'ease', // 가속도
     });
 })//$(document).ready  /**news의 swiper 종료 */
+

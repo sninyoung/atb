@@ -664,3 +664,264 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
     left:0;
     top:0;
 }
+
+/* INFRA */
+.cnt_infra {
+    padding: 3.75em;
+}
+
+.cnt_infra .infra_section + .infra_section {
+    margin-top: 7.5em;
+}
+
+.cnt_infra .infra_tit {
+    margin-bottom: 2.5em;
+}
+
+.cnt_infra .infra_tit p {
+    font-size: 1.125em;
+    font-weight: 700;
+    color: #0000A9;
+    margin-bottom: 0.3em;
+}
+
+.cnt_infra .infra_tit h3 {
+    font-size: 4.375em; /* 70px */
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.cnt_infra .infra_item,
+.cnt_infra .facility_item {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    background: #fff;
+}
+
+.cnt_infra .infra_item a,
+.cnt_infra .facility_item a {
+    display: block;
+    overflow: hidden;
+}
+
+.cnt_infra .infra_item img,
+.cnt_infra .facility_item img {
+    width: 80%;
+    display: block;
+    transition: all .4s ease;
+    margin: 0 auto;
+}
+
+.cnt_infra .facility_item p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.cnt_infra .infra_eq_swiper {
+    overflow: hidden;
+}
+
+.cnt_infra .infra_site_swiper {
+    overflow: hidden;
+}
+
+.cnt_infra .swiper-button-prev,
+.cnt_infra .swiper-button-next {
+    color: #000;
+}
+
+.cnt_infra .swiper-pagination-bullet-active {
+    background: #0000A9;
+}
+/* CAREERS */
+
+.cnt_careers{
+    padding:3.75em 0;
+}
+
+.cnt_careers .career_title{
+    text-align:center;
+    margin-bottom:3.75em;
+}
+
+.cnt_careers .career_title h3{
+    font-size:3em;
+    font-weight:700;
+}
+
+.cnt_careers .career_step_wrap{
+    display:flex;
+    justify-content:center;
+    gap:3em;
+    margin-bottom:5em;
+}
+
+.cnt_careers .career_step_wrap li{
+    text-align:center;
+    position:relative;
+}
+
+.cnt_careers .career_step_wrap li:not(:last-child)::after{
+    content:"›";
+    position:absolute;
+    right:-1.8em;
+    top:4em;
+    font-size:2em;
+    color:#ccc;
+}
+
+.cnt_careers .career_step_icon{
+    width:9em;
+    height:9em;
+    border:1px solid #ddd;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 1.2em;
+}
+
+.cnt_careers .career_step_num{
+    display:block;
+    color:#0000A9;
+    font-weight:700;
+    margin-bottom:.5em;
+}
+
+.cnt_careers .career_process_info{
+    border-top:1px solid #ddd;
+}
+
+.cnt_careers .career_process_row{
+    display:flex;
+    align-items:center;
+    gap:2em;
+    padding:1.8em 0;
+    border-bottom:1px solid #ddd;
+}
+
+.cnt_careers .career_process_row span{
+    color:#0000A9;
+    font-weight:700;
+    min-width:2em;
+}
+
+.cnt_careers .career_process_row strong{
+    min-width:8em;
+    font-weight:700;
+}
+
+.cnt_careers .career_notice{
+    background:#f6f6f6;
+    padding:2em;
+    margin-top:2.5em;
+}
+
+.cnt_careers .career_notice li{
+    position:relative;
+    padding-left:1em;
+    margin-bottom:.8em;
+}
+
+.cnt_careers .career_notice li:before{
+    content:"✓";
+    color:#0000A9;
+    position:absolute;
+    left:0;
+}
+
+.cnt_careers .career_person{
+    margin-top:8em;
+    padding:6em 3em;
+    background:#f8f8f8;
+}
+
+.cnt_careers .career_person_wrap{
+    position:relative;
+    width:50em;
+    height:32em;
+    margin:0 auto;
+}
+
+.cnt_careers .career_circle{
+    width:14em;
+    height:14em;
+    border:2px solid #0000A9;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#fff;
+}
+
+.cnt_careers .career_circle strong{
+    font-size:2em;
+    font-weight:700;
+}
+
+.cnt_careers .career_circle span{
+    color:#666;
+    margin-top:.5em;
+}
+
+.cnt_careers .career_center_circle{
+    width:8em;
+    height:8em;
+    border-radius:50%;
+    background:#0000A9;
+    color:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-weight:700;
+    z-index:10;
+}
+
+.cnt_careers .challenge{
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.cnt_careers .passion{
+    position:absolute;
+    bottom:0;
+    left:5em;
+}
+
+.cnt_careers .sincerity{
+    position:absolute;
+    bottom:0;
+    right:5em;
+}
+
+.cnt_careers .career_person_item p{
+    position:absolute;
+    width:10em;
+    line-height:1.8;
+}
+
+.cnt_careers .challenge p{
+    right:-14em;
+    top:5em;
+}
+
+.cnt_careers .passion p{
+    left:-14em;
+    top:5em;
+    text-align:right;
+}
+
+.cnt_careers .sincerity p{
+    right:-14em;
+    top:5em;
+}
