@@ -196,7 +196,7 @@
 
 .cop_menu {
     width: 53%;
-    padding: 120px 6.5% 100px 8%;
+    padding: 100px 2% 10px 12%;
     background: #fff;
 }
 
@@ -207,7 +207,7 @@
     font-weight: 800;
     letter-spacing: -0.04em;
     color: #111;
-}
+}li
 
 .cop_list {
     margin: 0;
@@ -218,7 +218,7 @@
 
 .cop_list li {
     counter-increment: copNum;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
 }
 
 .cop_list li:last-child {
@@ -230,7 +230,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    min-height: 82px;
+    min-height: 62px;
     padding-left: 7em;
     text-decoration: none;
     color: #111;
@@ -242,14 +242,14 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 78px;
-    height: 78px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #111;
     background: #f8f8fb;
     color: #111;
-    font-size: 2.625em; /* 42px */
+    font-size: 2em; /* 42px */
     font-weight: 600;
-    line-height: 78px;
+    line-height: 58px;
     text-align: center;
     transition: all 0.25s ease;
 }
@@ -259,7 +259,7 @@
     display: block;
     width: 100%;
     padding-right: 90px;
-    font-size: 2.125em;
+    font-size: 1.6em;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: -0.05em;
@@ -340,7 +340,7 @@
     }
 
     .cop_menu {
-        width: 100%;
+        width: 70%;
         padding: 80px 6%;
     }
 
