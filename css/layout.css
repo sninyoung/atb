@@ -480,7 +480,7 @@ footer .top button::before {
 }
 footer .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: row-reverse; /* 좌우 요소 뒤집기 */
     align-items: flex-start; /* flex는 좌우로 정렬되는 요소의 높이를 똑같이 줌. 높이를 각자주는 값이 align-item */
 }
