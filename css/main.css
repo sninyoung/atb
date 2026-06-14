@@ -182,6 +182,8 @@
     width: 100%;
     background: #fff;
     color: #111;
+    border: #aaa solid 3px;
+
 }
 
 .cop * {
@@ -192,7 +194,7 @@
     display: flex;
     width: 100%;
     height: 600px;
-    min-height: 720px;
+    min-height: 580px;
 }
 
 .cop_menu {
