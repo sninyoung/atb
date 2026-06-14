@@ -1013,9 +1013,6 @@
 
 .cnt_biz01 .photo_wrap ul:has(li:nth-child(3):last-child) li:first-child{
     grid-column:1 / 3;
-}
-
-li:first-child{
     max-width:18em;
 }
 
@@ -1174,9 +1171,7 @@ li:first-child{
 .cnt_infra .infra_item{
     width:100%;
     min-height:18em;
-
-    padding:1.5em 0;
-
+    padding:1em 0;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -1188,6 +1183,15 @@ li:first-child{
     justify-content:center;
     align-items:center;
 }
+
+.cnt_infra .infra_item img,
+.cnt_infra .facility_item img {
+    width: 85%;
+    display: block;
+    transition: all .4s ease;
+    margin: 4em auto;
+}
+
 
 .cnt_infra .infra_site_swiper {
     overflow: hidden;
@@ -1360,14 +1364,14 @@ li:first-child{
 
 .cnt_careers .passion{
     position:absolute;
-    bottom:0;
-    left:5em;
+    bottom:5em;
+    left:10em;
 }
 
 .cnt_careers .sincerity{
     position:absolute;
-    bottom:0;
-    right:5em;
+    bottom:5em;
+    right:10em;
 }
 
 .cnt_careers .career_person_item p{
