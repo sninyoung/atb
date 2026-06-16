@@ -94,7 +94,7 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
     font-size: 2.6471rem; /*45px*/
     font-weight: 700;
     line-height: 1.2;
-    padding: 7.7333em 0 0 0; /*348px- 45px 기준으로 환산*/
+    padding: 7em 0 0 0; /*348px- 45px 기준으로 환산*/
 }
 .sub_visual .snb {
     position: absolute; /*sub_visual을 기준으로 정렬*/
@@ -145,7 +145,7 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
 @media screen and (max-width:1300px){ /*16px*/
     .sub_visual .sub_txt span {
         font-size: 2.5rem; /*40px*/
-        padding: 9em 0 0 0; /*360px- 40px 기준으로 환산*/
+        padding: 7em 0 0 0; /*360px- 40px 기준으로 환산*/
     }
 } /* @media */
 

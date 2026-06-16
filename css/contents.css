@@ -1252,6 +1252,10 @@
     justify-content:center;
     margin:0 auto 1.2em;
 }
+.cnt_careers .career_step_icon img{
+    
+}
+
 
 .cnt_careers .career_step_num{
     display:block;
