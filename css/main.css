@@ -92,7 +92,7 @@
     background-color: #0000A9;
 
     animation-name: paging_ani;
-    animation-duration: 5s; /*jquery에서 정한 팝업 시간과 똑같게*/
+    animation-duration: 3s; /*jquery에서 정한 팝업 시간과 똑같게 3000이면 3s*/
     animation-timing-function: linear; /*가속도x*/
     animation-iteration-count: infinite;
 }
@@ -122,15 +122,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-}
-.visual .ctrl_wrap button.stop::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.125 8.77539V18.2254' stroke='white' stroke-width='2' stroke-linecap='square'/%3E%3Cpath d='M16.875 8.77539V18.2254' stroke='white' stroke-width='2' stroke-linecap='square'/%3E%3C/svg%3E%0A");
-}
-.visual .ctrl_wrap button.play::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.25 9.23686L18.5 14L10.25 18.7631V9.23686Z' stroke='white' stroke-width='1.5'/%3E%3C/svg%3E%0A");
-}
-.visual .ctrl_wrap button.play {
-    display: none;
 }
 
 @media screen and (max-width:1300px){ /* 브라우저 너비 기준 1300px이하에서만 실행*/

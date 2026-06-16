@@ -1103,6 +1103,23 @@
     top:0;
 }
 
+
+/*치공구 05번*/
+.cnt_biz01 .biz_item.tl5 .photo_wrap ul:has(li:only-child) li{
+    width:100%;
+    margin:0 auto;
+}
+.cnt_biz01 .biz_item.tl5 .photo_wrap {
+    padding: 1em 1em 1em 0;
+}
+.cnt_biz01 .biz_item.tl5 .photo_wrap ul li img{
+    min-height:22em;
+}
+
+
+
+
+
 /* INFRA */
 .cnt_infra {
     padding: 3.75em;
