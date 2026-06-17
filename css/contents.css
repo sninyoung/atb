@@ -856,9 +856,10 @@
 
 .company_info_table {
     width: 100%;
+    background-color: #FAFAFF;
     border-collapse: collapse;
-    border-top: 2px solid #4545ff;
-    border-bottom: 2px solid #4545ff;
+    border-top: 2px solid #0000A9;
+    border-bottom: 2px solid #0000A9;
 }
 
 .company_info_table th,
@@ -980,7 +981,8 @@
 
 .cnt_biz01 .photo_wrap{
     width:40%;
-    border:1px solid #d9d9d9;
+    border:2px solid #ccc;
+    background-color: #FAFAFF;
     padding:30px;
 }
 .cnt_biz01 .photo_wrap ul{
