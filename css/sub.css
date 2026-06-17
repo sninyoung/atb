@@ -222,7 +222,7 @@ header .gnb .gnb_wrap ul.depth1 > li.active.over > ul.depth2 > li.active > a {
 .page_tit nav.breadcrumb ol li a {
     display: block;
     position: relative; /* before, after 정렬의 기준 */
-    font-size: 0.8824em; /* 15px */
+    font-size: 1.1em; /* 16px */
     color: #454A51;
 }
 .page_tit nav.breadcrumb ol li + li a::before { /* 앞에 li 태그가 있는 li만 선택, 즉 두번째 li부터 */

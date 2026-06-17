@@ -189,7 +189,7 @@
     margin: 0 0 0.3em 0; /*12px 기준: 40px*/
 }
 .cnt_history .history_wrap .year_wrap .his_tit p {
-    font-size: 1.1765em; /*20px 기준: 17px*/
+    font-size: 1.4em; /*20px 기준: 28px*/
     font-weight: 600;
     line-height: 1.2;
     color: #454A51;
@@ -252,6 +252,7 @@
 }
 .cnt_history .history_wrap .year_wrap .his_cont .his_row ul li span {
     display: block;
+    font-size: 1.2em;
     margin: 0.8824em 0 0 5.4118em; /*15px 0 092px=68+24*/
 }
 .cnt_history .history_wrap .year_wrap .his_cont .his_row ul li span + span {
@@ -1102,11 +1103,11 @@
 }
 
 .cnt_biz01 .biz_item.tl6 .model_photo .bottom_img a:first-child{
-    flex:6.5;
+    flex:4.5;
 }
 
 .cnt_biz01 .biz_item.tl6 .model_photo .bottom_img a:last-child{
-    flex:3.5;
+    flex:3;
 }
 
 .cnt_biz01 .biz_item.tl6 .model_photo .bottom_img img{
