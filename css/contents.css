@@ -1075,7 +1075,6 @@
     width:100%;
     display:block;
 
-    transition:transform .5s ease;
 }
 /*치공구 05번 tl5*/
 .cnt_biz01 .biz_item.tl5 .photo_wrap ul:has(li:nth-child(2):last-child) li{
@@ -1100,10 +1099,10 @@
 /* 하단 두 장 */
 .cnt_biz01 .biz_item.tl6 .model_photo .bottom_img{
     display:flex;
+    justify-content:center;
     align-items:flex-start;
     gap:15px;
 }
-
 .cnt_biz01 .biz_item.tl6 .model_photo .bottom_img a:first-child{
     flex:4.5;
 }
