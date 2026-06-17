@@ -908,6 +908,7 @@
     border: 1px solid #cfcfcf;
 }
 
+
 .cnt_certif .certif_item {
     width: 50%;
     text-align: center;
@@ -941,20 +942,32 @@
     letter-spacing: -0.02em;
     color: #111;
 }
-.cnt_certif .photo {
-    /*overflow: hidden;*/
-}
-
-.cnt_certif .photo img {
+.cnt_certif .certif_wrap .photo img {
     display: block;
     width: 120%;
-    
-    transition: all 0.5s ease;
 }
 
-.cnt_certif .photo:hover img {
-    opacity: 0.9;
+.cnt_certif .factory_wrap .photo{
+    display:inline-flex;
+    border:1px solid #cfcfcf;
+    padding:2.4em;
+    justify-content:center;
+    align-items:center;
 }
+.cnt_certif .factory_wrap h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 2.2em 0 0.7em 0;
+}
+.cnt_certif .factory_wrap .photo img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    display: block;
+}
+
+
+
 .cnt_biz01 .biz_item{
     display:flex;
     justify-content:space-between;
