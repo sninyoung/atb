@@ -206,7 +206,7 @@
     /* font-size: 0; 
     line-height: 0;
     em으로 border-radius나 높이나 너비를 주었다면 이렇게 하면 안됨. 높이를 em으로 지정해줘야 함. */
-    height: 20em; /*400px 기준: 20px*/
+    height: 27em; /*400px 기준: 20px*/
 }
 .cnt_history .history_wrap .year_wrap .his_tit .photo img {
     width: 100%;
