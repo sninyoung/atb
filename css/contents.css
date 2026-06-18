@@ -982,7 +982,6 @@
 .cnt_biz01 .photo_wrap{
     width:40%;
     border:2px solid #ccc;
-    background-color: #FAFAFF;
     padding:30px;
 }
 .cnt_biz01 .photo_wrap ul{
@@ -1088,7 +1087,11 @@
 /* 상단 이미지 */
 .cnt_biz01 .biz_item.tl6 .model_photo .top_img{
     margin-bottom:15px;
-    text-align:center;
+}
+
+.cnt_biz01 .biz_item.tl6 .model_photo .top_img a{
+    display:flex;
+    justify-content:center;
 }
 
 .cnt_biz01 .biz_item.tl6 .model_photo .top_img img{
