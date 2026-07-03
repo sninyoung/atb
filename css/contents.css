@@ -982,7 +982,7 @@
 .cnt_biz01 .photo_wrap{
     width:40%;
     border:2px solid #ccc;
-    padding:30px;
+    padding:0.1em;
 }
 .cnt_biz01 .photo_wrap ul{
     display:grid;
@@ -1174,6 +1174,29 @@
     position:absolute;
     left:0;
     top:0;
+}
+.cnt_biz01 .txt_wrap .sub_list li {
+    margin-bottom: 4px;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+.cnt_biz01 .txt_wrap .sub_list {
+    list-style: none;   /* 기본 동그라미 제거 */
+    padding-left: 20px; /* 들여쓰기 */
+    margin-top: 5px;
+}
+
+.cnt_biz01 .txt_wrap .sub_list li {
+    position: relative;
+    padding-left: 0.8em;
+}
+
+.cnt_biz01 .txt_wrap .sub_list li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
 }
 
 
