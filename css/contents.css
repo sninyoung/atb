@@ -982,7 +982,7 @@
 .cnt_biz01 .photo_wrap{
     width:40%;
     border:2px solid #ccc;
-    padding:0.1em;
+    padding:3em 0.1em;
 }
 .cnt_biz01 .photo_wrap ul{
     display:grid;
